@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_alphapet - print all alphabets and then new line 
+ * print_alphabet - prints all alphabets and then new line
  * Return: 0
  */
 void print_alphabet(void)
