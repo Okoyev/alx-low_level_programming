@@ -3,7 +3,7 @@
  * print_diagonal - print a diagonal
  * @n: how long the line would be
  */
- void print_diagonal(int n)
+void print_diagonal(int n)
 {
 	int i, j;
 	if (n > 0)
