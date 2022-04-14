@@ -1,16 +1,29 @@
 #include "main.h"
 /**
- * print_line - prints a straight line
- * @n: how long line would be 
+ * print_diagonal - print a diagonal
+ * @n: how long the line would be
  */
-void print_diagonal(int n)
+ void print_diagonal(int n)
 {
-	int i;
-
-	if (n>0)
+	int i, j;
+	if (n > 0)
 	{
-		for (i = 0; i < n; i++)
-			_putchar(95);
+		_putchar(92);
+		if (n > 1)
+		{
+			for (i = 1; i < n; i++)
+			{
+				_putchar(10);
+				j = i;
+				
+				while (j != 0)
+				{
+					_putchar(32);
+					j--;
+				}
+				_putchar(92);
+			}
+		}
 	}
 	_putchar(10);
 }
