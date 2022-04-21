@@ -1,5 +1,5 @@
 #include "main.h"
-/*&
+/**
  * _puts - prints a string followed by anew line
  * @str: char type pointer
  */
