@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * print_sign - prints prints the sign of a number
- * @n: the number to be checked
- * Retutn: 1 if +ve, 0 if zero, -1 if -ve
+ * print_sign - prints the sign of a number
+ * @n: the number tobe checked
+ * Return: 1 if +ve, 0 if zero, -1 if -ve
  */
 int print_sign(int n)
 {
@@ -19,6 +19,6 @@ int print_sign(int n)
 	else
 	{
 		_putchar(45);
-		return (-1);
+		return  (-1);
 	}
 }
