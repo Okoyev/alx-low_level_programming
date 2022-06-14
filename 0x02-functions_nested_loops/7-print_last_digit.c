@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * print_last_digit _ prints last digit of a number
- * @n: number to be processed
+ * print_last_digit - prints last digit of a number
+ * @n: number to beprocessed
  * Return: value of last digit
  */
 int print_last_digit(int n)
@@ -11,8 +11,8 @@ int print_last_digit(int n)
 	if (n < 0)
 	{
 		m = -1 * (n % 10);
-		_putchar (m + '0');
-		return (m)
+		_putchar (m  + '0');
+		return (m);
 	}
 	else
 	{
